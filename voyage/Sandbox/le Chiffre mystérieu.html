@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quelle Chiffre</title>
+</head>
+<body>
+<h1 style="background-color: crimson">vous avez trouvers</h1>
+</body>
+<script>
+
+    trouver = Math.floor(Math.random() * 100)
+    alert("vous devez choisire 1 chiffre entre 1 et 100 pour gagner");
+    var chiffre=0
+    compteur=0
+
+        while (chiffre != trouver) {
+            chiffre = prompt("quelle chiffre voulez vous choisire");
+            compteur++
+            if (chiffre > trouver) {
+                alert("plus petit")
+            }
+            if (chiffre < trouver) {
+                alert("plus grand")
+            }
+            if (chiffre == trouver) {
+                alert("Gagner");
+            }
+            if (compteur==10){
+                alert("perdu")
+            }
+        }
+
+
+</script>
+</html>

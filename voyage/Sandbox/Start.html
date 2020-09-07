@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+</head>
+<body>
+<h1 id="h1Main" style="background-color: gray">ICT-120</h1>
+</body>
+<script>
+    console.log("hello le monde");
+    console.error("OMG");
+
+
+    alert("je vais te poser une question");
+    base = prompt("quel livret veux-tu ?");
+    document.write("<h2>livret " + base + "</h2>");
+    for (i = 1; i < 11; i++) {
+        document.write(i + " X " + base + " = " + i * base + "<br>");
+    }
+    h1Main.style.backgroundColor = prompt("quelle est ta couleur préférée");
+
+    document.write("au bol, je dirais..." + Math.floor(Math.random()*100))
+
+</script>
+</html>
