@@ -1,0 +1,40 @@
+
+h1{
+    color: steelblue;
+}
+img{
+    size: 50px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("menu.jpg");
+    background-color: green;
+}
+
+ul.menu li {
+    float: left;
+    align-content: center;
+}
+
+ul.menu li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover:not(.active) {
+    background-color: grey;
+}
+
+ul.menu li a.active {
+    background-color: green;
+}
+
+
+
