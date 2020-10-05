@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Voyage</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="script" href="../JavaScript/JS.js">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 
 </head>
 <body>
 <h1 align="center">Voyage d'étude</h1>
-<img src="logo.jpg">
+<img width="200" src="logo.jpg">
 
 <ul class="menu">
     <li><a class="active" href="#Personne">Personne</a></li>
@@ -16,7 +18,6 @@
     <li><a href="#Logement">Logement</a></li>
     <li><a href="#Activité">Activité</a></li>
 </ul>
-
 </div>
 
 </body>
